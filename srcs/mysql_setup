@@ -1,0 +1,3 @@
+CREATE USER 'mhori'@'localhost' IDENTIFIED BY 'mhori' ;
+CREATE DATABASE IF NOT EXISTS 42tokyo ;
+GRANT ALL ON 42tokyo.* TO 'mhori'@'localhost' ;
